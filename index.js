@@ -1,4 +1,4 @@
-var pty = require('pty.js');
+var pty = require('node-pty');
 var through = require('through');
 var duplexer = require('duplexer');
 var Terminal = require('headless-terminal');
